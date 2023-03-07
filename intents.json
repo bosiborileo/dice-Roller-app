@@ -1,0 +1,531 @@
+{
+  "intents": [{
+          "tag": "greeting",
+          "patterns": [
+              "Hi",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "Good day",
+              "Whats up",
+              "how are ya",
+              "hy",
+              "heyy",
+              "hi there",
+              "whatsup",
+              "hey"
+          ],
+          "responses": [
+              "Hello!",
+              "Good to see you again!",
+              "Hello, how are you?",
+              "Hi there, how can I help?☺",
+              "Hello! How can i help you today?"
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "goodbye",
+          "patterns": [
+              "see you",
+              "bye bye",
+              "See you later",
+              "Goodbye",
+              "I am Leaving",
+              "Bye",
+              "Have a Good day",
+              "talk to you later",
+              "i got to go",
+              "gtg"
+          ],
+          "responses": [
+              "Sad to see you go 😢",
+              "Talk to you later",
+              "Goodbye!",
+              "Come back soon"
+          ],
+          "context_set": ""
+      },
+      {
+        "tag": "miss",
+        "patterns": [
+           
+            "miss you",
+            "i miss you"
+        ],
+        "responses": [
+            
+            "miss you too!"
+        ],
+        "context_set": ""
+    },
+      {
+          "tag": "student affairs",
+          "patterns": [
+              "how do I contact the student affairs?",
+              "where can i get help on student affairs",
+              "how do I get the student affairs contact details?",
+              "can I have the student affairs contact details.",
+              "how can I contact student affairs' office?",
+              "I want contact details for the student affairs office"
+          ],
+          "responses": [
+              "You contact student affairs at  0726550016. Or by email at studentaffairs@chukauni.ac.ke for more information, please visit the university web page."
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "student card",
+          "patterns": [
+              "what is the cost of a student card?",
+              "how much is a student id?",
+              "can I replace a lost student card?",
+              "I lost a student card.",
+              "where can i get student card",
+              "how much is it to replace a student id?"
+          ],
+          "responses": [
+              "Your first student card is issued for free. However, if you damage, lose or misplace your card, the cost of a replacement card is Ksh. 500."
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "undergraduate course application",
+          "patterns": [
+              "how do I apply for an undergraduate course?",
+              "how can i apply for a course",
+              "how can I apply for an undergraduate course?",
+              "I wish to apply for an undergraduate course at msu, can you take me through?",
+              "by what method can I apply for an undergraduate course?",
+              "can you tell me how to apply for an undergraduate course?"
+          ],
+          "responses": [
+              "Undergraduate applications to Chuka University are submitted using an online application form, which can be found on the University website. Before submitting your application, please  make sure that the details are correct and truthful. Any wrong doing will nullify the application."
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "guidance and help",
+          "patterns": [
+              "where do I find guidance and help for the online application system?",
+              "I'm looking for the online application system",
+              "where can I find guidance and help?",
+              "where can I get guidance and help for the online application system?",
+              "I need guidance and help for the online application system, where can I get one?",
+              "where do I find the online application system guidance and help?"
+          ],
+          "responses": [
+              "The step-by-step instruction guide for online application to study at Chuka University is available on the University website: www.chukauni.ac.ke.",
+              "You can contact the admissions office on; phone: 0726550016 email: admissions@chukauni.ac.ke"
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "application requirements",
+          "patterns": [
+              "which documents must accompany my application form?",
+              "on my application form which documents are required?",
+              "which documents are needed on my application form?",
+              "which documents must go with my application form?",
+              "when applying, what documents are needed for the application form?"
+          ],
+          "responses": [
+              "Please ensure that you comply with the minimum admission requirements before you complete your application form. Follow all the instructions carefully when you complete an application form to ensure that all requested information has been supplied and all the required documents have been attached. - enclose a copy of your identity document or your passport. - attach copies of your examination results and academic transcripts."
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "change program",
+          "patterns": [
+              "how do I change my programme?",
+              "how do I change my course?",
+              "can I change my programme?",
+              "if I need to change my programme, is it possible?",
+              "programme change, is it possible?",
+              "i want to change my program, can you help me go about it?",
+              "in what way can I change my programme?"
+          ],
+          "responses": [
+              "An application to change your programme must be done in writing or email before the closing date of the programme. One can send the email to academics@chukauni.ac.ke indicating which programme must be added or removed"
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "Hostel application",
+          "patterns": [
+              "how do I apply for residence?",
+              "in what way can I apply for hostel?",
+              "I want residence, how can I apply?",
+              "just how do I apply for residence?",
+              "I wish to apply for residence, how can it be done?"
+          ],
+          "responses": [
+              "all applications are done online. The university will issue a link to be used for application and the application must be done before the deadline. the student must also make payments as early as possible to secure the room"
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "bursaries and loans",
+          "patterns": [
+              "where can I find information about bursaries and loans available?",
+              "how do I apply for a bursary/loan?",
+              "where can I find a bursary form?",
+              "where can I find bursary information and forms?",
+              "I want information about bursaries and loans available."
+          ],
+          "responses": [
+              "You can visit the University website for information about bursaries and loans.",
+              "Undergraduate bursaries for students are awarded after application  based on merit and level of need. To apply for any Chukauni bursary  please visit the university website for more information.",
+              "Bursary information as well as an online application form is available on the MSU website at: www.chukauni.ac.ke. The online bursary application form is also active from November to january every year. the exact dates are ussually communicated using the Email from the Dean of students"
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "fees",
+          "patterns": [
+              "where can I find the tuition fees for my course?",
+              "where can I find information about banking details and payment arrangements?",
+              "what is the initial payment for undergraduate students?",
+              "when are my fees to be paid?",
+              "how do I apply for residence?"
+          ],
+          "responses": [
+              "Please visit: https://portal.chukauni.ac.ke for the estimated tuition fees as per your course."
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "application fees",
+          "patterns": [
+              "how can I pay the application fee?",
+              "how much is the application fee",
+              "is there application fee",
+              "where can I pay the application fee?"
+          ],
+          "responses": [
+              "The application fee of KSH 2000 can be paid as follows: 1. On the online application system, you may pay the ksh 2000 application fee using your Mpesa paybil  and submit code of payment together with your online application form. 2. Application fees are not required for students with dissabilities.  NB: The application fee is non - refundable."
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "outstanding fees",
+          "patterns": [
+              "can I write exams if I have outstanding fees?",
+              "if I have outstanding fees, can I write exams?",
+              "can I write exams if I have unresolved fees?",
+              "can i sit for exam before full payment of fee",
+              "can i sit for exam before completion of fee",
+              "will I write exams if I have remaining fees?",
+              "can I write examinations if I have unsettled fees?"
+          ],
+          "responses": [
+              "You will be not be allowed to do the exam even when your tuition fees have not been paid in full."
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "student portal",
+          "patterns": [
+              "where can I view my account?",
+              "how do I apply for units?"
+             
+          ],
+          "responses": [
+              "Students are able to view their accounts and register units on the university portal.  students can access their portal on https://portal.chukauni.ac.ke/"
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "food menu",
+          "patterns": [
+              "food menu",
+              "food in mace",
+              "food in cafeteria",
+              "Whats there on menu",
+              "what is available in university pavillion",
+              "what foods can we get in university mace"
+          ],
+          "responses": [
+              "The university cafeteria serves Plain ugali, Plain Rice, ugali and Beef, Rice and Beef, Rice and Chicken, Bread,  Rice,  Vegetables,  Chicken fry and many more dishes."
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "location",
+          "patterns": [
+              "where is the Chuka University located",
+              "The Chuka University is located at",
+              "where is Chuka University",
+              "where is Chuka University located",
+              "address of Chuka University",
+              "how to reach the University",
+              "University location",
+              "University address",
+              "wheres the University",
+              "how can I reach University",
+              "whats is the Chuka University address",
+              "what is the address of Chuka",
+              "address",
+              "location"
+          ],
+          "responses": [
+              "The Chuka University is located in Tharaka Nithi County on the South Eastern slopes of Mt.Kenya, approximately 147 Km North-East of Nairobi along Nairobi - Meru highway.. For more direction visit <a target=\"_blank\" href=\"https://www.google.com/maps/dir/-0.5146699,37.4555628/University+of+Embu,+Embu/@-0.5153085,37.4538522,17z/data=!3m1!4b1!4m10!4m9!1m1!4e1!1m5!1m1!1s0x18262d7878a3a88b:0x3dfcea5a10769055!2m2!1d37.4560299!2d-0.5156165!3e0\"> here</a>"
+
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "random",
+          "patterns": [
+              "I like you",
+              "I love you",
+              "Will you marry me",
+              "Do you love me"
+          ],
+          "responses": [
+              "Wow, am happy. Thanks"
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "swear",
+          "patterns": [
+              "fuck",
+              "bitch",
+              "shut up",
+              "hell",
+              "stupid",
+              "idiot",
+              "dumb ass",
+              "asshole",
+              "fucker"
+          ],
+          "responses": [
+              "please use appropriate language",
+              "Maintaining decency would be appreciated"
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "salutaion",
+          "patterns": [
+              "okk",
+              "okie",
+              "nice work",
+              "well done",
+              "good job",
+              "thanks for the help",
+              "Thank You",
+              "its ok",
+              "Thanks",
+              "k",
+              "dankie",
+              "ok",
+              "okay"
+          ],
+          "responses": [
+              "I am glad I helped you",
+              "welcome, anything else i can assist you with?"
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "task",
+          "patterns": [
+              "what can you do",
+              "what are the thing you can do",
+              "things you can do",
+              "what can u do for me",
+              "how u can help me",
+              "why i should use you"
+          ],
+          "responses": [
+              "I can answer to low-intermediate questions regarding Chuka University",
+              "You can ask me questions regarding Chuka University, and i will try to answer them"
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "creator",
+          "patterns": [
+
+              "what is the name of your developers",
+              "what is the name of your creators",
+              "what is the name of the developers",
+              "what is the name of the creators",
+              "who created you",
+              "your developers",
+              "your creators",
+              "who are your developers",
+              "developers",
+              "you are made by",
+              "you are made by whom",
+              "who created you",
+              "who create you",
+              "creators",
+              "who made you",
+              "who designed you"
+          ],
+          "responses": [
+              "Bosibori Annete developed me in 2023, for the University "
+          ],
+          "context_set": ""
+      },
+      {
+          "tag": "name",
+          "patterns": [
+              "name",
+              "your name",
+              "do you have a name",
+              "what are you called",
+              "what is your name",
+              "what should I call you",
+              "whats your name?",
+              "what are you",
+              "who are you",
+              "who is this",
+              "what am i chatting to",
+              "who am i taking to",
+              "what are you"
+          ],
+          "responses": [
+              "You can call me Annita, I am a Chuka University Enquiries chatbot.",
+              "I'm University Enquiry assistant but you can call me Annita",
+              "My name is Annita Bot. I'm a university Enquiry Chatbot"
+
+          ],
+          "context_set": ""
+      },
+      {
+        "tag": "history",
+        "patterns": [
+            "what is the history Chuka University ",
+            "Chuka University history",
+            "tell me the history of Chuka",
+            "brief about Chuka"
+            
+        ],
+        "responses": [
+            "The University of Embu (UoEm) was established as a Constituent College of the University of Nairobi via a Legal Notice No. 65 of 17th June, 2011 by His Excellency the President. EUC is the successor of the former Embu Agricultural Staff Training (EAST) College which started in 1947 as an agricultural training school and was later renamed Embu Institute of Agriculture in 1968. In 1990, it was upgraded to be Embu Agricultural Staff Training (EAST) College whose mandate was to develop and implement short management and technical courses, and offer research and consultancy services to enhance performance in the agricultural sector.  This continued until June 2011 when the College was converted to Embu University College through a Legal Notice No. 65 of 17th June, 2011. The EUC council was inaugurated after its upgrading from Embu Agricultural Staff Training (EAST) College by President Mwai Kibaki. Friday, 7th October, 2016 became a historic day for Embu University College. This day marked the transition of the Institution from a Constituent College of UoN to a fully- fledged University. The University of Embu was formally awarded a Charter by H.E. President Uhuru Kenyatta at a colorful function held at State house, Nairobi."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "Chuka",
+        "patterns": [
+            "why choose Chuka University",
+            "why Chuka University",
+            "reason to choose Chuka",
+            "why apply to Chuka University"
+            
+        ],
+        "responses": [
+            "Our programmes are market and demand-driven and in addition, teach key transferable skills and attributes to equip students with the tools they need to succeed in a highly competitive workplace. Our courses are flexible and have a wide choice of more than 40 postgraduates and 70 undergraduate programmes to choose from. Our courses are structured as bridges leading students to successful employment or further study. All our Schools have highly qualified and experienced staff that are committed to developing the skills and career aspirations of our students."
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "schools",
+        "patterns": [
+            "Faculties in Chuka University",
+            "schools in the university"
+           
+            
+        ],
+        "responses": [
+            "Chuka university has 6 Faculties. Namely: \\n\\n 1. School of Education & Social Sciences \\n2. Faculty of Law \\n3. School of Pure & Applied Sciences \\n4. School of Nursing 5. School of Business & Economics \\n6. School of Agriculture"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "diploma courses",
+        "patterns": [
+            "diploma courses in the university",
+            "what are the diploma courses offered in the university",
+            "which diploma courses does the university offer",
+            "diploma courses"
+
+           
+            
+        ],
+        "responses": [
+"            The following are the diploma courses offered: Diploma in Agricultural Biotechnology\\nDiploma in Agriculture\\nDiploma in Animal Production\\nDiploma in Horticulture\\nDiploma in Seed science\\nDiploma in Purchasing & Supplies Management\\nDiploma in Business Management with IT\\nDiploma in Project Management\\nDiploma in Criminology and Security Studies\\nDiploma in Hospitality and Tourism Management\\nDiploma in Social Work\\nDiploma in Library and Information Science\\nDiploma in Corporate Communications\\nDiploma in Community Health\\nDiploma in Information Technology (IT)"        
+],
+        "context_set": ""
+    },
+    {
+        "tag": "degree courses",
+        "patterns": [
+            "bachelors degree courses in the university",
+            "what are the undergraduate courses offered in the university",
+            "which degree courses does the university offer",
+            "undergraduate courses",
+            "bachelor degree courses",
+            "degree courses available"
+            
+        ],
+        "responses": [
+        "The following are the undergraduate programmes: \\n\\nBachelor of Science Agriculture\\nBachelor of Science in Animal production\\nBachelor of Science in Biotechnology\\nBachelor of Science in Environmental Science\\nBachelor of Science in Horticulture\\nBachelor of Science in Management of Agroecosystems and Environment\\nBachelor of Science in Range management\\nBachelor of Science in Water Resources Management\\nB.Sc. Agricultural Economics\\nBachelor of Science in Agribusiness Management: An Overview\\nBachelor of Science in Agricultural Education and Extension\\nBachelor of Commerce\\nBachelor of Economics\\nBachelor of Economics and Statistics\\nBachelor of Purchasing and Supplies Management\\nBachelor of Science in Finance\\nBachelor of Economics and Finance\\nBachelor of Library and Information Science\\nBachelor of Arts Criminology and Security \\nBachelor of Education Science\\nBachelor of Education Arts\\nBachelor of law\\nBACHELOR OF SCIENCE IN BIOCHEMISTRY\\nBACHELOR OF SCIENCE IN BIOLOGY\\nBACHELOR OF SCIENCE IN ENVIRONMENTAL CONSERVATION AND NATURAL RESOURCE MANAGEMENT\\nBACHELOR OF SCIENCE IN MICROBIOLOGY AND BIOTECHNOLOGY\\nBachelor of Science in Community Health\\nBachelor of Science in Nursing (BScN) Upgrading Programme\\nBachelor of Science in Nursing (direct entry/pre-service)\\nBACHELOR OF SCIENCE\\nBACHELOR OF SCIENCE IN ANALYTICAL CHEMISTRY\\nBACHELOR OF SCIENCE IN INDUSTRIAL CHEMISTRY\\nBachelor of Science in Computer Science\\nBachelor of Science in Mathematics with Computing\\nBachelor of Science in Statistics"        
+    ],
+        "context_set": ""
+    },
+    {
+        "tag": "postgraduate courses",
+        "patterns": [
+            "masters  courses in the university",
+            "what are the postgraduate courses offered in the university",
+            "which postgraduate courses does the university offer",
+            "postgraduate courses",
+            "graduate  courses",
+            "masters and phd courses on offer"
+            
+        ],
+        "responses": [
+            "The following are the postgraduate courses offered at Chuka University:\\n\\nMaster of Science in Agricultural Resource Management\\nMaster of Science in Agroforestry\\nMaster of Science in Crop Protection\\nMaster of Science in Genetics and Plant Breeding\\nMaster of Science in Horticulture\\nMaster of Science in Land and Water Management\\nPh.D. in Business Administration\\nPh.D. in Project Planning & Management\\nMaster of Business Administration (MBA)\\nMaster of Science in Project Planning & Management\\nMaster of Economics\\nMaster of Science in Management of Agro-ecosystems and Environment\\nMaster of Science in Plant Breeding & Biotechnology\\nMaster of Science in Soil Science\\nDoctor of Philosophy Degree in Agro-Forestry\\nDoctor of Philosophy in Agricultural Resource Management\\nDoctor of Philosophy in Crop Protection\\nDoctor of Philosophy in Genetics and Plant Breeding\\nDoctor of Philosophy in Horticulture\\nDoctor of Philosophy in Land and Water Management\\nDoctor of Philosophy in Management of Agro-ecosystems and Environment\\nDoctor of Philosophy in Plant Breeding &Biotechnology\\nDoctor of Philosophy in Soil Science\\nMaster of Science in Agricultural Economics Degree\\nPh.D. in Agricultural Economics\\nMaster of Child Studies\\nMaster of Educational Psychology\\nMaster of Leadership and Governance\\nMaster of Competence-Based Curriculum and Instruction\\nMaster of Corporate Communications\\nPhD Educational Psychology\\nPhD Corporate Communcations\\nMaster of Arts Linguistics\\nMaster of Education Planning and Administration\\nPhD Education Administration\\nMasters in Public Health\\nMASTER OF SCIENCE IN APPLIED MICROBIOLOGY\\nMASTER OF SCIENCE IN APPLIED PARASITOLOGY\\nMASTER OF SCIENCE IN BIOLOGY OF CONSERVATION\\nMASTER OF SCIENCE IN ENTOMOLOGY\\nMASTER OF SCIENCE IN GENETICS\\nMASTER OF SCIENCE IN PLANT ECOLOGY\\nDOCTOR OF PHILOSOPHY IN APPLIED MICROBIOLOGY\\nDOCTOR OF PHILOSOPHY IN BIOLOGY OF CONSERVATION\\nDOCTOR OF PHILOSOPHY IN GENETICS\\nDOCTOR OF PHILOSOPHY IN APPLIED PARASITOLOGY\\nDOCTOR OF PHILOSOPHY IN ECOLOGY\\nDOCTOR OF PHILOSOPHY IN ENTOMOLOGY\\nDOCTOR OF PHILOSOPHY IN FISHERIES\\nMASTER OF SCIENCE IN ANALYTICAL CHEMISTRY\\nMASTER OF SCIENCE IN CHEMISTRY\\nMASTER OF SCIENCE IN PHYSICS\\nDoctor of Philosophy (PhD) Chemistry\\nMaster of Science Degree in Computer Science\\nMasters of Science in Information Technology\\nMaster of Science in Applied Mathematics\\nMaster of Science in Pure Mathematics\\nMaster of Science in Statistics"
+        ],
+            "context_set": ""
+    },
+    {
+        "tag": "courses",
+        "patterns": [
+            "courses in the university",
+            "what are the courses offered in the university",
+            "which courses does the university offer",
+            "courses",
+            "all the courses",
+            "courses on offer"
+            
+        ],
+        "responses": [
+            "are you intrested in diploma, bachelors degree or postgraduate courses?"
+        ],
+            "context_set": ""
+    },
+      {
+          "tag": "hours",
+          "patterns": [
+              "timing of university",
+              "what is university timing",
+              "working hours",
+              "working days",
+              "when are you guys open",
+              "what are your hours",
+              "hours of operation",
+              "when is the university open",
+              "college timing",
+              "what about college timing",
+              "is college open on saturday",
+              "tell something about university timing",
+              "what is the college  hours",
+              "when should i come to college",
+              "when should i attend college",
+              "what is my university time",
+              "university timing",
+              "timing university"
+          ],
+          "responses": [
+              "University is open always and the offices operate from Monday-Friday, 8.00 to 5.00pm!"
+          ]
+      }
+  ]
+}
