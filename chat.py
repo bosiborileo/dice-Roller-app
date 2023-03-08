@@ -5,30 +5,19 @@ import random
 import numpy as np
 import pickle
 
-nltk.download('punkt')#Sentence tokenizer
-from nltk.stem import WordNetLemmatizer
-
 warnings.filterwarnings('ignore')
 
+from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
-from keras.models import Sequential
-from keras.layers import Dense, Activation, Dropout
-import random
 
 lemmatizer = WordNetLemmatizer()
 
-words=[]
-classes = []
-documents = []
-ignore_words = ['?', '!']
-data_file = open(r"C:\\Users\user\Music\annete\intents.json").read() # read json file
-intents = json.loads(data_file) # load json file
+intents = json.loads(open('intents.json').read())
 
 with open('words.pkl', 'rb') as f:
      words = pickle.loads(f.read())
 classes = pickle.load(open('classes.pkl', 'rb'))
-model = load_model('chatbotmodel.h5')
-
+model = load_model('chatbot_model')
 
 def clean_up_sentences(sentence):
     sentence_words = nltk.word_tokenize(sentence)
@@ -36,9 +25,9 @@ def clean_up_sentences(sentence):
                       for word in sentence_words]
     return sentence_words
   
-def bagw(sentence):
+def bagofwords(sentence):
     sentence_words = clean_up_sentences(sentence)
-    bag = [0]*len(words)
+    bag = [0] * len(words)
     for w in sentence_words:
         for i, word in enumerate(words):
             if word == w:
@@ -46,7 +35,7 @@ def bagw(sentence):
     return np.array(bag)
   
 def predict_class(sentence):
-    bow = bagw(sentence)
+    bow = bagofwords(sentence)
     res = model.predict(np.array([bow]))[0]
     ERROR_THRESHOLD = 0.25
     results = [[i, r] for i, r in enumerate(res)
@@ -59,6 +48,7 @@ def predict_class(sentence):
         return return_list
   
 def get_response(intents_list, intents_json):
+    #print tag
     tag = intents_list[0]['intent']
     list_of_intents = intents_json['intents']
     result = ""
@@ -68,7 +58,7 @@ def get_response(intents_list, intents_json):
             break
     return result
   
-print("Chatbot!")
+print("Hello! How can I help you?")
   
 while True:
     message = input("")
