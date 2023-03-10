@@ -4,6 +4,7 @@ import warnings
 import random
 import numpy as np
 import pickle
+import flask
 
 warnings.filterwarnings('ignore')
 
@@ -11,6 +12,14 @@ from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 
 lemmatizer = WordNetLemmatizer()
+
+from twilio.twiml.messaging_response import MessagingResponse
+
+
+app = Flask(__name__)
+
+@app.route("/")
+
 
 intents = json.loads(open('intents.json').read())
 
