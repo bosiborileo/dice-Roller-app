@@ -58,10 +58,10 @@ def get_response(intents_list, intents_json):
             break
     return result
   
-print("Hello! How can I help you?")
+print("Let's chat! (type 'quit' to exit)")
   
 while True:
     message = input("")
     ints = predict_class(message)
-    res = get_response(ints, intents)
-    print(res)
+    resp = get_response(ints, intents)
+    print(resp)
