@@ -80,7 +80,7 @@ model.add(Dense(len(train_y[0]), activation='softmax'))
 sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
-history = model.fit(np.array(train_x), np.array(train_y), epochs=500, batch_size=5, verbose=1)
+history = model.fit(np.array(train_x), np.array(train_y), epochs=500, batch_size=5)
 model.save('chatbot_model', history)
 print("Training data has been created")
 
