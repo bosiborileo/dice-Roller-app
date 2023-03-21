@@ -12,6 +12,7 @@ import time
 from chatbot import app
 from flask import Flask
 from flask import render_template,flash, request
+from _init_ import model,words,classes,intents
 
 warnings.filterwarnings('ignore')
 

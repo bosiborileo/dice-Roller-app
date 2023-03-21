@@ -1,5 +1,4 @@
 import flask
-import chatbotconfig
 from flask import Flask
 from chatbotconfig import Config
 
@@ -15,11 +14,12 @@ from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
 
-model=load_model('chatbot_codes/mymodel.h5')
+model=load_model('chatbot_model')
 intents = json.loads(open('chatbot_codes/intents.json').read())
 words = pickle.load(open('chatbot_codes/words.pkl','rb'))
 classes = pickle.load(open('chatbot_codes/classes.pkl','rb'))
 
+from chatbot import app
+print('Couldn\'t log in: Quitting.')
 
-from chatbot import chat
 
