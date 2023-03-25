@@ -1,4 +1,3 @@
-import nltk
 import json
 import random
 import numpy as np
@@ -6,6 +5,7 @@ import pickle
 import warnings
 warnings.filterwarnings('ignore')
 
+import nltk
 from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
 
