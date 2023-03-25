@@ -6,7 +6,16 @@ import numpy as np
 model = tf.keras.models.load_model('chatbot_model')
 
 # Define the vocabulary and index-to-word mappings
-vocab = {0: '<PAD>', 1: '<START>', 2: '<END>', ...}
+vocab = {
+    0: '<PAD>',
+    1: '<START>',
+    2: '<END>',
+    3: '<UNK>',
+    4: 'hello',
+    5: 'world',
+    # Add more words here
+}
+
 index2word = {i: w for w, i in vocab.items()}
 
 # Define the function to preprocess the input text
