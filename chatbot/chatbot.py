@@ -9,7 +9,8 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
 
-intents = json.loads(open('intents.json').read())
+intents_file = open('intents.json').read()
+intents= json.loads('intents_json')
 with open('words.pkl', 'rb') as f:
      words = pickle.loads(f.read())
 classes = pickle.load(open('classes.pkl', 'rb'))
