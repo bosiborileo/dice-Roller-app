@@ -21,7 +21,7 @@ documents = []
 ignore_words = ['?', '!', '.', ',']
 
 #loading intents.json
-with open('intents.json') as intents:
+with open('chatbot\intents.json', 'r') as intents:
   data = json.load(intents)
 
 for intent in data['intents']:
@@ -81,7 +81,7 @@ sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 history = model.fit(np.array(train_x), np.array(train_y), epochs=500, batch_size=5)
-model.save('chatbot_model', history)
+model.save('model.h5', history)
 print("Training data has been created")
 
 
